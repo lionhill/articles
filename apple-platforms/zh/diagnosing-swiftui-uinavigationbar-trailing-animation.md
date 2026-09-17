@@ -1,4 +1,4 @@
-# SwiftUI 导航动画排查：一个约 1pt 的 `UINavigationBar` 尾部移动是怎么定位的
+# SwiftUI `UINavigationBar` Push 后约 1pt 横向抖动：原因与解决方案
 
 ## 从一个很小的视觉问题，追到 Navigation Lifecycle 和 Presentation Layer
 
