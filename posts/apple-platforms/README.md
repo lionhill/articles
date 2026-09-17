@@ -4,4 +4,5 @@ Public articles and technical notes on iOS, iPadOS, macOS, Swift, SwiftUI, UIKit
 
 ## Articles
 
-- [Diagnosing a Trailing `UINavigationBar` Animation in SwiftUI](./diagnosing-trailing-uinavigationbar-animation-swiftui.md) — From a one-point visual glitch to a navigation lifecycle problem.
+- [Diagnosing a Trailing `UINavigationBar` Animation in SwiftUI](../../diagnosing-swiftui-uinavigationbar-trailing-animation.md) — From a one-point visual glitch to a navigation lifecycle problem.
+- [中文版本](../../zh/diagnosing-swiftui-uinavigationbar-trailing-animation.md)
