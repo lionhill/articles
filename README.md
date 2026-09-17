@@ -4,11 +4,19 @@ Public articles, technical notes, research, and independent analysis.
 
 This repository is a collection of public-facing writing on software engineering, Apple platform development, AI and technology, and broader research topics.
 
+## Latest Article
+
+### [Diagnosing a Trailing `UINavigationBar` Animation in SwiftUI](./posts/apple-platforms/diagnosing-trailing-uinavigationbar-animation-swiftui.md)
+
+From a one-point visual glitch to a navigation lifecycle problem: separating SwiftUI layout state, UIKit navigation-bar lifecycle, and Core Animation presentation state to isolate a subtle iPhone push-transition artifact.
+
 ## Articles
 
 ### Apple Platforms
 
 Articles on iOS, iPadOS, macOS, Swift, SwiftUI, UIKit, and Apple platform behavior.
+
+- [Diagnosing a Trailing `UINavigationBar` Animation in SwiftUI](./posts/apple-platforms/diagnosing-trailing-uinavigationbar-animation-swiftui.md)
 
 ### Technology & AI
 
