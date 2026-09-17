@@ -6,36 +6,22 @@ This repository is a collection of public-facing writing on software engineering
 
 ## Latest Article
 
-### [Diagnosing a Trailing `UINavigationBar` Animation in SwiftUI](./posts/apple-platforms/diagnosing-trailing-uinavigationbar-animation-swiftui.md)
+### Diagnosing a Trailing `UINavigationBar` Animation in SwiftUI
 
 From a one-point visual glitch to a navigation lifecycle problem: separating SwiftUI layout state, UIKit navigation-bar lifecycle, and Core Animation presentation state to isolate a subtle iPhone push-transition artifact.
 
-## Articles
+- [English](./diagnosing-swiftui-uinavigationbar-trailing-animation.md)
+- [中文：SwiftUI 导航动画排查：一个约 1pt 的 `UINavigationBar` 尾部移动是怎么定位的](./zh/diagnosing-swiftui-uinavigationbar-trailing-animation.md)
 
-### Apple Platforms
+## Language Structure
 
-Articles on iOS, iPadOS, macOS, Swift, SwiftUI, UIKit, and Apple platform behavior.
-
-- [Diagnosing a Trailing `UINavigationBar` Animation in SwiftUI](./posts/apple-platforms/diagnosing-trailing-uinavigationbar-animation-swiftui.md)
-
-### Technology & AI
-
-Technical research, engineering notes, AI, security, and emerging technology.
-
-### Research & Analysis
-
-Long-form research, observations, and independent analysis across technology, products, markets, and related topics.
-
-## Repository Structure
+English articles use the repository root as their canonical path. Chinese versions use the same filename under `zh/`.
 
 ```text
-posts/
-├── apple-platforms/
-├── technology-ai/
-└── research-analysis/
-
-assets/
-└── images/
+articles/
+├── diagnosing-swiftui-uinavigationbar-trailing-animation.md
+└── zh/
+    └── diagnosing-swiftui-uinavigationbar-trailing-animation.md
 ```
 
-Each article is written as a standalone Markdown document and may include supporting images or figures under `assets/images/`.
+Additional topic directories may be used as indexes or supporting organization as the collection grows.
