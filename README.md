@@ -11,7 +11,7 @@ This repository is a collection of public-facing writing on software engineering
 From a one-point visual glitch to a navigation lifecycle problem: separating SwiftUI layout state, UIKit navigation-bar lifecycle, and Core Animation presentation state to isolate a subtle iPhone push-transition artifact.
 
 - [English: Diagnosing a Trailing `UINavigationBar` Animation in SwiftUI](./apple-platforms/diagnosing-swiftui-uinavigationbar-trailing-animation.md)
-- [中文：SwiftUI 导航动画排查：一个约 1pt 的 `UINavigationBar` 尾部移动是怎么定位的](./apple-platforms/zh/diagnosing-swiftui-uinavigationbar-trailing-animation.md)
+- [中文：SwiftUI `UINavigationBar` Push 后约 1pt 横向抖动：原因与解决方案](./apple-platforms/zh/diagnosing-swiftui-uinavigationbar-trailing-animation.md)
 
 ## Repository Structure
 
